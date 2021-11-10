@@ -1,4 +1,4 @@
-namespace AcompanhamentoPlanoCarreira.Models
+namespace AcompanhamentoPlanoCarreira.Models.ViewModels
 {
     public class ErrorViewModel
     {

@@ -1,8 +1,8 @@
-﻿using AcompanhamentoPlanoCarreira.Models;
+﻿using AcompanhamentoPlanoCarreira.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace AcompanhamentoPlanoCarreira.Controllers
+namespace AcompanhamentoPlanoCarreira.Models.ViewModels
 {
     public class HomeController : Controller
     {
