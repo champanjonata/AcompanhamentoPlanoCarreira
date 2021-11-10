@@ -1,4 +1,10 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using AcompanhamentoPlanoCarreira.Data;
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<AcompanhamentoPlanoCarreiraContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("AcompanhamentoPlanoCarreiraContext")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
