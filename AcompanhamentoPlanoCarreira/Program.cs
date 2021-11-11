@@ -4,7 +4,8 @@ using AcompanhamentoPlanoCarreira.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<AcompanhamentoPlanoCarreiraContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("AcompanhamentoPlanoCarreiraContext")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("AcompanhamentoPlanoCarreiraContext"), builder =>
+    builder.MigrationsAssembly("AcompanhamentoPlanoCarreira")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
