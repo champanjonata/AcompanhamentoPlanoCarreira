@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "izHPvYI5JL85qrq2pFUhmRlqa49EvHwMX+4G3vOuihQ=",
+  "Hash": "pad60GSR06stIcikOLas2XLNkUL4em1uodx8eoImknA=",
   "Source": "AcompanhamentoPlanoCarreira",
   "BasePath": "_content/AcompanhamentoPlanoCarreira",
   "Mode": "Default",
@@ -236,6 +236,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\jonat\\source\\repos\\AcompanhamentoPlanoCarreira\\AcompanhamentoPlanoCarreira\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-flatly.css",
+      "SourceId": "AcompanhamentoPlanoCarreira",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jonat\\source\\repos\\AcompanhamentoPlanoCarreira\\AcompanhamentoPlanoCarreira\\wwwroot\\",
+      "BasePath": "_content/AcompanhamentoPlanoCarreira",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-flatly.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-flatly.css"
     },
     {
       "Identity": "C:\\Users\\jonat\\source\\repos\\AcompanhamentoPlanoCarreira\\AcompanhamentoPlanoCarreira\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",

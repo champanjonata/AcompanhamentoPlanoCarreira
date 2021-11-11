@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using AcompanhamentoPlanoCarreira.Models.ViewModels;
+using AcompanhamentoPlanoCarreira.Models;
 
 namespace AcompanhamentoPlanoCarreira.Data
 {
@@ -14,6 +15,10 @@ namespace AcompanhamentoPlanoCarreira.Data
         {
         }
 
-        public DbSet<AcompanhamentoPlanoCarreira.Models.ViewModels.Department> Department { get; set; }
+        public DbSet<Department> Department { get; set; }
+
+        public DbSet<Seller> Seller { get; set; }
+
+        public DbSet<SallesRecord> SallesRecord { get; set; }
     }
 }
